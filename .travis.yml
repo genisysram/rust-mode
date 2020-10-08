@@ -1,5 +1,8 @@
 dist: trusty
 language: generic
+arch:
+    - amd64
+    - ppc64le
 
 env:
  - EVM_EMACS=emacs-25.1-travis
